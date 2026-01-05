@@ -1,12 +1,12 @@
 
-// Create a button , on click of which new Heading tag h1 should be added with text as "MERN stack" on the screen above button
+// Create a button , on click of which new Heading tag h1 should be added with text as "MERN stack" on the screen above button.
 
 function Change(){
   let ele = document.getElementById("One");
   ele.innerHTML = "MERN stack";
 
 }
-// Write code to get 1st H1 element from a webpage using DOM
+// Write code to get 1st H1 element from a webpage using DOM.
 
 function Create() {
   let element = document.createElement("h1");
@@ -16,7 +16,7 @@ function Create() {
 
 Create();
 
-// Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second
+// Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second.
 
   function MyClock(){
     let date = new Date();
