@@ -1,5 +1,5 @@
 
-// Create a button , on click of which new Heading tag h1 should be added with text as "MERN stack" on the screen above button.
+// Create a button , on click of which new Heading tag h1 should be added with text as "MERN stack" on the screen above button
 
 function Change(){
   let ele = document.getElementById("One");
