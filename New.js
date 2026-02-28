@@ -16,7 +16,7 @@ function Create() {
 
 Create();
 
-// Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second.
+// Write code to implement timer clock using JS -- display HH:MM:SS -- the time should keep updating every second.........
 
   function MyClock(){
     let date = new Date();
