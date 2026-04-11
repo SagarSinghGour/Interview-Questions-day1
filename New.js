@@ -6,7 +6,7 @@ function Change(){
   ele.innerHTML = "MERN stack";
 
 }
-// Write code to get 1st H1 element from a webpage using DOM.....
+// Write code to get 1st H1 element from a webpage using DOM.........
 
 function Create() {
   let element = document.createElement("h1");
