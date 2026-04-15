@@ -60,3 +60,9 @@ for (let i = 2; i <= n; i++) {
 }
 
 console.log(fact);
+
+
+let n = 5;
+let fact = n * (n - 1) * (n - 2) * (n - 3) * (n - 4);
+
+console.log(fact); // 120
