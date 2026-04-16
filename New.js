@@ -66,3 +66,15 @@ let n = 5;
 let fact = n * (n - 1) * (n - 2) * (n - 3) * (n - 4);
 
 console.log(fact); // 120
+
+
+
+function countFrequency(arr) {
+  let freq = {};
+  for (let num of arr) {
+    freq[num] = (freq[num] || 0) + 1;
+  }
+  return freq;
+}
+
+console.log(countFrequency([1,2,2,3,3,3]));
